@@ -1,0 +1,30 @@
+    Tests run: 24, Tests passed: 14, Tests failed: 10.                                                                                                                   
+    testLastEmpty(LineTest):                                                                                                                                             
+    Testing Line method last():                                                                                                                                          
+        java.util.NoSuchElementException                                                                                                                                 
+    testFirstEmpty(LineTest):                                                                                                                                            
+    Testing Line method first():                                                                                                                                         
+        java.util.NoSuchElementException                                                                                                                                 
+    compareToTestConsistentWithEquals(LineTest):                                                                                                                         
+    Testing Line method         java.util.NoSuchElementException                                                                                                         
+    testAddNonCollinear(LineTest):                                                                                                                                       
+    Testing Line method  add, length, first, and last. Attempting to add randomly generated non-collinear points.       java.lang.AssertionError: Error: incorrect line l
+ength.  expected:<2> but was:<3>                                                                                                                                         
+    testAddRandomPoints(LineTest):                                                                                                                                       
+    Testing Line method  add, length, first, and last. Attempting to add randomly generated collinear, non-collinear points, and duplicate points.      java.lang.Asserti
+onError: Error: incorrect line length.  expected:<100> but was:<198>                                                                                                     
+    compareToTestEmptyLines(LineTest):                                                                                                                                   
+    Testing Line method compareTo:                                                                                                                                       
+        java.util.NoSuchElementException                                                                                                                                 
+    testCompareToFixtures(LineTest): Incorrect compareTo result: (34, 30) -> (34, 31) -> (34, 32) -> (34, 33) -> (34, 34) should be less than (34, 30) -> (35, 31) -> (36
+, 32) -> (37, 33) -> (38, 34):                                                                                                                                           
+    compareToTestFirstLastCombinations(LineTest):                                                                                                                        
+    Testing Line method compareTo:                                                                                                                                       
+        java.lang.AssertionError:                                                                                                                                        
+    testIteratorOnRandomLine(LineTest):                                                                                                                                  
+    Testing Line method  iterator. Iterating over randomly generated line.                                                                                               
+        java.lang.AssertionError: expected:<(41886, 36462)> but was:<(160517, 139702)>                                                                                   
+    testConstructorFromCollection(LineTest):                                                                                                                             
+    Testing Line method  Line(collection) constructor:                                                                                                                   
+        java.lang.AssertionError: Error: Incorrect line length.  expected:<100> but was:<198>                                                                            
+                                                      
