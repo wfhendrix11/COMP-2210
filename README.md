@@ -1,3 +1,3 @@
 # COMP-2210
-Fundamentals of Computing II (Data Structures)
-Projects for Auburn Univeristy's Data Structures Class
+
+Projects from my COMP 2210 class. All projects were created using the jGRASP IDE, which can be found here: http://www.jgrasp.org/
